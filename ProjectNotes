@@ -1,0 +1,27 @@
+
+Create an approximate timer called Pisello (pea) similar to pomodoro.
+
+With a pomodoro-type timer a person could start stressing knowing the that their time is running out, or could start procrastinating towards the end of the timer reducing their work. An approximate timer would emulate another person telling them to stop at an approximate/slightly unexpected time. (more human less machine-like).                                           
+
+
+fill bucket with pea pods
+pick pea pod, randomize number of peas inside
+count peas inside
+  if peas > 0 then remove one pea
+  wait 1 second? and count again
+    else pick new pea pod 
+when finished cleaning peas in bucket
+start on next bucket
+
+When finished with all buckets
+  alert user
+
+
+
+What does success look like
+
+Pisello v.1: After cleaning the specified amount of buckets, Pisello will return a meme (more visible). Pisello can then be rerun.
+
+Pisello v.2: Will allow user to choose amount of buckets (three choices), Pisello will not restart until a specified break time has passed, automate restart of Pisello?
+
+Pisello v.3: Will use audio files for messages when choosing amount of buckets (relief?complain), and when finished (exuberation/complain), or when trying to restart Pisello (will complain if break time is not finished). User should be able to choose who will clean peas (voice files from everyone in class/group). Animate peas being cleaned while Pisello is running?
